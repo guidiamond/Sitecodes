@@ -1,0 +1,85 @@
+/*Header*/
+
+body {
+    background-image: url(../imgs/teste9.jpg);
+    background-size: cover;
+}
+
+#header {
+    height: 4rem;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    /*background-color: red;*/
+}
+
+#nav_header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#logo_header {
+    padding-top: 0.5rem;
+    width: 8rem;
+    height: 3.4rem;
+    max-height: 3.4rem;
+    max-width: 8rem;
+}
+
+
+.header_list_inicial {
+    padding-top: 0.7rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2.7rem;
+    border: none;
+    color: black;
+}
+
+.header_list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_list_sub {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2rem;
+    font-family: "Times New Roman";
+    border: none;
+    color: black;
+}
+
+a {
+/*    text-decoration-line: underline;
+    text-decoration-color: none;
+    color: #C00026;*/
+    text-decoration: none;
+}
+
+/*END HEADER*/
+
+
+main{
+	border-style: solid;
+	border-width: 3px;
+}
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+p{
+	text-align: center;
+	border-style: solid;
+}
+.text-1 {
+	margin: 15px 100px 15px 100px;
+}
+.paragrafo{
+	margin: 15px 350px 15px 350px;
+}

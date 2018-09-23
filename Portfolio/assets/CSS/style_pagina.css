@@ -1,0 +1,97 @@
+/*Header*/
+
+body {
+    background-image: url(../imgs/teste8.jpg);
+    background-size: cover;
+}
+
+#header {
+    height: 4rem;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    /*background-color: red;*/
+}
+
+#nav_header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#logo_header {
+    padding-top: 0.5rem;
+    width: 8rem;
+    height: 3.4rem;
+    max-height: 3.4rem;
+    max-width: 8rem;
+}
+
+
+.header_list_inicial {
+    padding-top: 0.7rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2.7rem;
+    border: none;
+    color: black;
+}
+
+.header_list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_list_sub {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2rem;
+    font-family: "Times New Roman";
+    border: none;
+    color: black;
+}
+
+a {
+/*    text-decoration-line: underline;
+    text-decoration-color: none;
+    color: #C00026;*/
+    text-decoration: none;
+}
+
+/*END HEADER*/
+
+.Categoria {
+	text-align: center;
+	font-size: 100px;
+}
+
+.texto {
+    margin: 0;
+    position: absolute;
+    height: 600px;
+    top: 500px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.menu_categorias {
+    margin: 0;
+    position: absolute;
+    height: 600px;
+    top: 500px;
+    left: 1400px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.menu_texto {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.selecao {
+
+}

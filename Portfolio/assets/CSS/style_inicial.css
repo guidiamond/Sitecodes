@@ -1,0 +1,34 @@
+/*Header*/
+
+
+
+/*END HEADER*/
+
+/*PORTFÓLIO*/
+
+.Portfolio_titulo {
+    margin-top: 1.5rem;
+    text-align: center;
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+
+#caixa_alinhamento {
+    display: grid;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+    margin: 0 auto;
+    max-width: 50rem;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.hexagono {
+    height: 75%;
+    width: 75%;
+}
+
+/*END PORTFÓLIO*/
